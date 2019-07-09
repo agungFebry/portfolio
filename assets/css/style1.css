@@ -1,0 +1,385 @@
+html, body
+	{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+
+.content-title,
+.skill-title,
+.portfolio-title
+    {
+    font-size: 40px;
+    font-family: 'handlove';
+    letter-spacing: 3px;
+    font-weight: 900;
+    z-index: 1;
+    padding: 25px;
+    position: relative;
+    }
+
+section
+    {
+    min-height: 600px;
+    }
+
+.contact    
+    {
+    min-height: 300px;
+    }
+/* navbar */
+.navbar-brand
+    {
+    color: #ffffff !important;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 25px;
+    z-index: 1;
+    position: relative;
+    font-family: 'Gloretha';
+    text-shadow: 0 0 5px black;
+    }
+
+.nav-link
+    {
+    color: #ffffff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 250;
+    font-size: 12px;
+    z-index: 1;
+    position: relative;
+    text-shadow: 0 1px 5px black;
+    }
+
+/* banner */
+.banner
+    {
+    background-image: url(../img/a.jpg);
+    background-size: cover;
+    height: 650px;
+    position: relative;
+    color: #ffffff !important;
+    text-align: center;
+    background-attachment: fixed;
+    }
+
+.banner::after  
+    {
+    content: '';
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    }
+
+.banner-title
+    {
+    position: relative;
+    z-index: 1;
+    font-size: 46px;
+    margin-top: 16%;
+    }
+
+.banner-caption
+    {
+    position: relative;
+    z-index: 1;
+    font-size: 26px;
+    font-weight: 250;
+    }
+
+.banner-button
+    {
+    z-index: 1;
+    position: relative;
+    border-radius: 50px;
+    font-size: 12px;
+    }
+
+/* endbanner */
+
+/* about */
+.about-img
+    {
+    box-shadow: 1px 1px 4px rgba(0,0,0,2);
+    }
+
+.content-about
+    {
+    font-size: 16px;
+    padding: 10px;
+    }
+/* end about */
+
+/* skill */
+.about-skill
+    {
+    font-size: 14px;
+    padding: 16px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+    }
+
+.skill-icon
+    {
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    }
+
+.bar
+    {
+    background: white;
+    display: block;
+    height: 7px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 2px #b45eff;
+    z-index: 1;
+    position: relative;
+    }
+    
+.bar span
+    {
+    height: 7px;
+    float: left;
+    background: black;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+    }
+
+.html
+    {
+    width: 90%;
+    animation: html 2s;
+    }
+
+.css
+    {
+    width: 60%;
+    animation: css 2s;
+    }
+
+.bootstrap
+    {
+    width: 65%;
+    animation: bootstrap 2s;
+    }
+
+.php
+    {
+    width: 30%;
+    animation: php 2s;
+    }
+
+.photoshop
+    {
+    width: 50%;
+    animation: photoshop 2s;
+    }
+
+.sleep
+    {
+    width: 90%;
+    animation: sleep 2s;
+    }
+
+@keyframes html
+    {
+    0%	{
+        width: 0%;
+        }
+    100%
+        {
+        width: 90%;
+        }	
+    }
+    
+@keyframes css
+    {
+    0%	{
+        width: 0%;
+        }
+    100%
+        {
+        width: 60%;
+        }	
+    }
+
+@keyframes bootstrap
+    {
+    0%	{
+        width: 0%;
+        }
+    100%
+        {
+        width: 65%;
+        }	
+    }
+
+@keyframes php
+    {
+    0%	{
+        width: 0%;
+        }
+    100%
+        {
+        width: 30%;
+        }	
+    }
+
+@keyframes photoshop
+    {
+    0%	{
+        width: 0%;
+        }
+    100%
+        {
+        width: 50%;
+        }	
+    }
+
+@keyframes sleep
+    {
+    0%	{
+        width: 0%;
+        }
+    100%
+        {
+        width: 100%;
+        }	
+    }
+/* end skill */
+
+/* portfolio */
+.card
+    {
+    margin: 20px;
+    border: solid 1px #b45eff;
+    padding: 20px;
+    }
+
+/* .card:hover 
+    {
+    border: none;
+    box-shadow: 0 0 20px #b45eff;
+    } */
+
+.portfolio-card-title
+    {
+    font-size: 20px;
+    font-weight: 400;
+    }
+
+.portfolio-card-caption
+    {
+    font-size: 14px;
+    text-align: justify;
+    }
+/* endportfolio */
+
+/* footer */
+.contact
+    {
+    background-image: url(../img/a.jpg);
+    background-size: cover;
+    position: relative;
+    /* color: #ffffff !important; */
+    text-align: center;
+    background-attachment: fixed;
+    }
+
+/* .contact::after  
+    {
+    content: '';
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.5));
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    } */
+
+.contact-box
+    {
+    padding-top: 40px;
+    }
+
+.contact-icon
+    {
+    font-size: 35px;
+    position: relative;
+    z-index: 1;
+    }
+
+.contact-title 
+    {
+    font-size: 30px;
+    z-index: 1;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-family: 'Gloretha';
+    }
+
+.contact-caption
+    {
+    font-size: 14px;
+    z-index: 1;
+    position: relative;
+    font-weight: 250;
+    letter-spacing: 3px;
+    }
+
+.footer
+    {   
+    width: 100%;
+    color: #ffffff !important;
+    position: relative;
+    z-index: 1;
+    font-weight: 100;
+    padding: 20px;
+	margin-bottom: -20px;
+    }
+/* endfooter */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE VERSION */
+@media (max-width: 576px)
+    {
+
+    .banner
+        {
+        height:500px;
+        }
+    
+    .banner-title
+        {
+        font-size: 25px;
+        margin-top: 33%;
+        }
+    
+    .banner-caption
+        {
+        font-size: 16px;
+        }
+    }
