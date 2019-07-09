@@ -1,7 +1,11 @@
-/* html
+ html
 	{
-	scroll-behavior: smooth;
-	} */
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	https://fontbundles.net/analogous/252961-handlove-script-11-off-until-end-of-may/rel=CSjNje
+
+	} 
+
+
 
 body
 	{
@@ -10,19 +14,9 @@ body
 	font-family: 'poppins', sans-serif;
 	}
 
-
-
-/* div .nav-pills
-	{
-	background-color: salmon;
-	/* background-image: linear-gradient(45deg, #0066ff, #9900ff); */
-	/* border-radius: 100px; */
-	} */
-
 section	
 	{
 	min-height: 400px;
-	padding-top: 100px;
 	}
 
 .content-title,
@@ -56,7 +50,7 @@ div .toggle-icon
 	}
 
 .logo
-    {
+   	{
 	height: 30px;
 	position: relative;
 	}
@@ -69,9 +63,9 @@ div .toggle-icon
     font-weight: 300;
     font-size: 12px;
     z-index: 1;
-	position: relative;
-	text-align: center;
-	}
+position: relative;
+text-align: center;
+}
 /* /navbar */
 
 /* banner */
