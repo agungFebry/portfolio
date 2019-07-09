@@ -11,14 +11,15 @@ section
 	}
 
 .content-title,
-.portfolio-title
+.portfolio-title,
+.title-contact
 	{
 	font-size: 40px;
 	font-family: 'Arizonia', cursive;
 	letter-spacing: 3px;
 	font-weight: 900;
 	z-index: 1;
-	padding: 25px;
+/* 	padding: 25px; */
 	position: relative;
 	}
 
