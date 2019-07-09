@@ -241,15 +241,16 @@ div .toggle-icon
     {
     .banner
         {
-	height:650px;
+	height:750px;
 	letter-spacing: 2px;
-        }
+	}
     
     .title-banner
         {
         font-size: 24px;
-       padding-top: 20%;
+       padding-top: 70%;
         }
+    
     
     .caption-banner
         {
