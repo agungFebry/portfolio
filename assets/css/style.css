@@ -1,9 +1,23 @@
+/* html
+	{
+	scroll-behavior: smooth;
+	} */
+
 body
 	{
 	margin: 0;
 	padding: 0;
 	font-family: 'poppins', sans-serif;
 	}
+
+
+
+/* div .nav-pills
+	{
+	background-color: salmon;
+	/* background-image: linear-gradient(45deg, #0066ff, #9900ff); */
+	/* border-radius: 100px; */
+	} */
 
 section	
 	{
@@ -241,25 +255,25 @@ div .toggle-icon
     {
     .banner
         {
-	height:650px;
-	letter-spacing: 2px;
-	}
+		height:650px;
+		letter-spacing: 2px;
+        }
     
     .title-banner
         {
         font-size: 24px;
-       margin-top: 65%;
+       padding-top: 60%;
         }
-    
     
     .caption-banner
         {
-	font-size: 14px;
-	}
+		font-size: 14px;
+		}
 	
-.navbar-nav
-	{
-	text-align: center;		
-	padding: 10px;
-	}
+	.navbar-nav
+		{
+		/* background-image: linear-gradient(45deg, salmon, #9900ff); */
+		text-align: center;		
+		padding: 10px;
+		}
     }
