@@ -1,23 +1,9 @@
-/* html
-	{
-	scroll-behavior: smooth;
-	} */
-
 body
 	{
 	margin: 0;
 	padding: 0;
 	font-family: 'poppins', sans-serif;
 	}
-
-
-
-/* div .nav-pills
-	{
-	background-color: salmon;
-	/* background-image: linear-gradient(45deg, #0066ff, #9900ff); */
-	/* border-radius: 100px; */
-	} */
 
 section	
 	{
@@ -255,14 +241,14 @@ div .toggle-icon
     {
     .banner
         {
-		height:500px;
-		letter-spacing: 2px;
+	height:550px;
+	letter-spacing: 2px;
         }
     
     .title-banner
         {
         font-size: 24px;
-       padding-top: 39%;
+       padding-top: 50%;
         }
     
     .caption-banner
