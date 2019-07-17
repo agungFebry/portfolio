@@ -32,11 +32,6 @@ hr
 	}
 
 /* navbar */
-.navbar
-	{
-	background-image: linear-gradient(45deg, #0066ff, #9900ff);
-	}
-
 div .toggle-icon
 	{
 	color: #ffffff;
@@ -270,7 +265,7 @@ text-align: center;
 	
 	.navbar-nav
 		{
-		/* background-image: linear-gradient(45deg, salmon, #9900ff); */
+		background-image: linear-gradient(45deg, #0066ff, #9900ff);
 		text-align: center;		
 		padding: 10px;
 		}
