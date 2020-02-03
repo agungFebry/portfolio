@@ -8,22 +8,23 @@ $(document).ready(function()
 
         $('html, body').animate(
             {
-            scrollTop: $(hash).offset().top - 50
+            scrollTop: $(hash).offset().top - 100
             }, 1000);
         });
     
-    $(window).scroll(function()
-        {
-        var y = $(window).scrollTop();
+    // $(window).scroll(function()
+    //     {
+    //     var y = $(window).scrollTop();
 
-        if(y >= 585)
-            {  
-            $('#navbarTest').slideDown(500).css('background-image','linear-gradient(45deg, #0066ff, #9900ff)');
-            }
-        else
-            {
-            $('#navbarTest').css('background-image','none')
-            }
-        });
+    //     if(y >= 585)
+    //         {  
+    //         $('#navbarTest').slideDown(500).css('background-color','#f4f4f4');
+    //         $('#navbarTest').slideDown(500).css('background', '#ffffff');
+    //         }
+    //     else
+    //         {
+    //         $('#navbarTest').css('background-image','none')
+    //         }
+    //     });
 
     });
